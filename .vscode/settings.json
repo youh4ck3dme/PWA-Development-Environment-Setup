@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "supabase/migrations/*.sql": "pgsql",
+    "**/supabase/migrations/*.sql": "pgsql",
+    "**/supabase/**/*.sql": "pgsql"
+  },
+  "mssql.autoDisableNonTSqlLanguageService": true,
+  "mssql.intelliSense.enableIntelliSense": false,
+  "mssql.intelliSense.enableErrorChecking": false,
+  "mssql.intelliSense.enableSuggestions": false,
+  "mssql.intelliSense.enableQuickInfo": false
+}

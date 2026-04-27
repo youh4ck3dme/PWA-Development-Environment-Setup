@@ -1,0 +1,59 @@
+{
+  "name": "Offline Inventory",
+  "short_name": "Inventory",
+  "description": "Offline-first inventory workspace for teams that need reliable stock visibility, sync-safe mutations, and production-ready billing and auth foundations.",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "orientation": "portrait-primary",
+  "lang": "sk-SK",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/icons/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "description": "View inventory dashboard",
+      "url": "/dashboard",
+      "icons": [
+        {
+          "src": "/icons/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Items",
+      "short_name": "Items",
+      "description": "Manage inventory items",
+      "url": "/items",
+      "icons": [
+        {
+          "src": "/icons/pwa-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}

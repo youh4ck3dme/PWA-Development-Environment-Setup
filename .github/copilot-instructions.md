@@ -1,0 +1,9 @@
+- Keep the project on Next.js 15 App Router conventions.
+- Prefer server components by default and use client components only for browser-only behavior.
+- Preserve the Offline Inventory domain naming: items, stock movements, offline sync queue, checkout sessions, notification subscriptions.
+- Treat Supabase Row Level Security as a first-class constraint; never bypass RLS from browser code.
+- Keep Stripe secret handling server-only and keep webhook verification isolated in route handlers.
+- Prefer minimal, typed helpers in src/lib over ad-hoc inline logic in routes or pages.
+- Use shadcn-style UI composition in src/components/ui and shared utilities from src/lib/utils.ts.
+- When adding PWA features, keep service worker and offline sync behavior explicit and testable.
+- Validate with lint, type-check, and build after meaningful changes.
